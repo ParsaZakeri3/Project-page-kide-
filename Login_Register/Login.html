@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ورود</title>
+    <link rel="stylesheet" href="./Css_JS_LR/Login.css">
+	<script src="Css_JS_LR/Login.js"></script>
+</head>
+<body dir="rtl">
+	<div class="Nav_Title">
+        <h2>ورود در سایت</h2>
+        <h4><a href="./Register.html">ثبت نام</a></h4>
+        <h4><a href="../index.html">صفحه اصلی</a></h4>
+    </div>
+	<div class="Login_form">
+		<form action="login.php" method="POST" class="Form_Login" onsubmit="return validateForm()">
+			<label for="username">نام کاربری:</label>
+			<input type="text" id="username" name="username" required>
+			<label for="password">رمز عبور:</label>
+			<input type="password" id="password" name="password" required>
+			<input type="submit" value="ورود">
+		</form>
+	</div>
+</body>
+</html>

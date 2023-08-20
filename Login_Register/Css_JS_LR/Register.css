@@ -1,0 +1,90 @@
+* {
+	margin:0;
+	padding: 0;
+	outline: none;
+  }
+
+  body {
+	font-family: b koodak;
+	background-image: url("../Image/Background_Register.jpg");
+    background-size: cover;
+	height:100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+.registration-form {
+    background-color: aliceblue;
+    padding: 20px;
+    /* margin: 126px auto; */
+    width: 400px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+form label {
+	display: block;
+	margin-bottom: 5px;
+}
+
+form input[type="text"],
+form input[type="password"],
+form input[type="email"] {
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 10px;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+}
+
+form input[type="submit"] {
+	background-color: #0011ff;
+	color: #fff;
+	padding: 10px 15px;
+	border: none;
+	border-radius: 3px;
+	cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+    width: 100px;
+	background-color: #3e8e41;
+}
+
+._Form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.Nav_Title {
+
+    background-color: aliceblue;
+    width: 230px;
+    height: 125px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 35px;
+    flex-direction: column;
+    margin: 50px;
+}
+
+.Nav_Title > h4 :hover {
+    color : green;
+    
+}

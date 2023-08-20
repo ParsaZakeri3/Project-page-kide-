@@ -1,0 +1,90 @@
+* {
+	margin:0;
+	padding: 0;
+	outline: none;
+  }
+
+  body {
+	font-family: sans-serif;
+	background-image: url("../Image/Background_Login.jpg");
+	background-size: cover;
+	height:100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+
+.Login_form {
+    border: 1px solid;
+    border-radius: 10px;
+    width: 500px;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: aliceblue;
+	box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+
+h2 {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+form label {
+	display: block;
+	margin-bottom: 5px;
+}
+
+form input[type="text"],
+form input[type="password"] {
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 10px;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+}
+
+form input[type="submit"] {
+    background-color: #2c50ff;
+    color: #fff;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+	background-color: #3e8e41;
+	width: 100px;
+}
+
+.Form_Login {
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Nav_Title {
+
+    background-color: aliceblue;
+    width: 230px;
+    height: 125px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 35px;
+    flex-direction: column;
+    margin: 50px;
+}
+
+.Nav_Title > h4 :hover {
+    color : green;
+    
+}
