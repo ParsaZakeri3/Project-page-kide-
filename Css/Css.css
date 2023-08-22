@@ -6,6 +6,7 @@
   
   a {
     text-decoration: none !important;
+    color: black;
     /* color: black; */
   }
   
@@ -15,7 +16,8 @@
     background-size: cover;
     height:100vh;
     display: flex;
-    /* align-items: center; */
+    flex-direction: column;
+    align-items: center;
     /* justify-content: center; */
   }
   .headerPage{
@@ -145,58 +147,249 @@
     background-color: rgb(42, 42, 255)
 }
 
-/* ------------------------------------ */
-
-header {
-    background-color: #333;
-    color: #fff;
-    padding: 10px 0;
-    position: fixed;
-    top: 0;
-    width: 100%;
+/* ------------------------- */
+.mainpage_Menu {
+  width: 100%;
+  height: 500px;
+  background-color: #85e9ff;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Project_kide {
+  width: 30%;
+  height: 300px;
+  background-color: #22dbb2;
+  border-radius: 25px;
+  margin: 10px;
+}
+.Project_kide img {
+  width: 100%;
+  height: 80%;
+  border-radius: 25px;
+}
+.Project_kide span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  width: 100% !important;
+  height: 20% !important;
+}
+.world_book{
+  width: 30%;
+  height: 300px;
+  background-color: #f1ce50;
+  border-radius: 25px;
+  margin: 10px;
+}
+.world_book img {
+  width: 100%;
+  height: 80%;
+  border-radius: 25px;
+}
+.world_book span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  width: 100% !important;
+  height: 20% !important;
+}
+.tarane_kide{
+  width: 30%;
+  height: 300px;
+  background-color: #f87b5b;
+  border-radius: 25px;
+  margin: 10px;
+}
+.tarane_kide img {
+  width: 100%;
+  height: 80%;
+  border-radius: 25px;
+}
+.tarane_kide span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  width: 100% !important;
+  height: 20% !important;
+}
+.page_Base {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.Project_kide_BaseInfo {
+  width: 100%;
+  height: 315px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: rgba(34, 219, 178, 0.71);
+}
+.titleProject {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+.book_P {
+  width: 70%;
+  height: 200px;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #393939;
+  border-radius: 15px;
+  background-color: rgba(255, 255, 255, 0.58) !important;
+}
+.titleBest {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: start;
+}
+.titleBest span{
+  right: 0;
+}
+.tablebook{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Book1 {
+  width: 25%;
+  /* height: 25%; */
+  margin: 10pX;
+}
+.Book1 img {
+  width: 70%;
+  height: 130px;
+  border-radius: 100px;
+}
+.Book1 span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 70%;
+  height: 25%;
+  background-color: #85e9ff;
+  border-radius: 10px;
+}
+.world_book_BaseInfo {
+  width: 100%;
+  height: 510px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #d8b758;
+  margin-top: 25px;
+}
+.titleworld_book {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+.world_book_s {
+  width: 70%;
+  height: 400px;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #393939;
+  border-radius: 15px;
+  background-color: rgba(255, 255, 255, 0.58) !important;
+}
+.tablebook{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.seda {
+  width: 25%;
+  /* height: 25%; */
+  margin: 10pX;
+}
+.seda img {
+  width: 70%;
+  height: 130px;
+  border-radius: 100px;
+}
+.seda span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 70%;
+  height: 25%;
+  background-color: #85e9ff;
+  border-radius: 10px;
+}
+.seda1 {
+  width: 15%;
+  /* height: 25%; */
+  margin: 10pX;
+}
+.seda1 img {
+  width: 70%;
+  height: 130px;
+  /* border-radius: 100px; */
+}
+.seda1 span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 70%;
+  height: 25%;
+  background-color: #85e9ff;
+  border-radius: 10px;
 }
 
-nav ul {
-    list-style: none;
-    text-align: center;
+.tarane_kide_BaseInfo {
+  width: 100%;
+  height: 510px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #f99db6;
+  margin-top: 25px;
 }
-
-nav ul li {
-    display: inline-block;
-    margin: 0 20px;
+.titletarane_kide {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
 }
-
-nav ul li a {
-    text-decoration: none;
-    color: #fff;
-}
-
-main {
-    width: 100%;
-    height: 500px;
-    margin-top: 200px;
-    display: flex;
-}
-
-.menu-section {
-    width: 100%;
-    /* float: left; */
-    position: absolute;
-    top: 130px;
-    /* left: 0px; */
-    background-color: #f0f0f0;
-    padding: 20px;
-}
-
-.template-section {
-    width: 75%;
-    float: right;
-    margin-left: 5%;
-}
-
-footer {
-    text-align: center;
-    background-color: #333;
-    color: #fff;
-    padding: 10px 0;
+.tarane_kide_s {
+  width: 70%;
+  height: 400px;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #393939;
+  border-radius: 15px;
+  background-color: rgba(255, 255, 255, 0.58) !important;
 }
